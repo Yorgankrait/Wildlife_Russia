@@ -17,32 +17,19 @@
 
 ## ✨ Особенности
 
-<table>
-  <tr>
-    <td>
-      <img src="https://raw.githubusercontent.com/Yorgankrait/Wildlife_Russia/main/docs/features/parallax.gif" width="400"/>
-      <br>
-      <p align="center">🎨 Параллакс-эффект</p>
-    </td>
-    <td>
-      <img src="https://raw.githubusercontent.com/Yorgankrait/Wildlife_Russia/main/docs/features/responsive.gif" width="400"/>
-      <br>
-      <p align="center">📱 Адаптивный дизайн</p>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <img src="https://raw.githubusercontent.com/Yorgankrait/Wildlife_Russia/main/docs/features/navigation.gif" width="400"/>
-      <br>
-      <p align="center">🔄 Плавная навигация</p>
-    </td>
-    <td>
-      <img src="https://raw.githubusercontent.com/Yorgankrait/Wildlife_Russia/main/docs/features/animations.gif" width="400"/>
-      <br>
-      <p align="center">✨ Анимации</p>
-    </td>
-  </tr>
-</table>
+<div align="center">
+<img src="https://raw.githubusercontent.com/Yorgankrait/Wildlife_Russia/main/docs/features/main-demo.gif" width="800"/>
+<p align="center">🎨 Интерактивный интерфейс с параллакс-эффектом</p>
+</div>
+
+Проект включает:
+- 🖼️ Современный адаптивный дизайн
+- 🔄 Плавную навигацию между разделами
+- 📱 Интерактивное меню
+- ✨ Анимированные переходы
+- 📊 Раскрывающиеся информационные панели
+- ⬆️ Кнопку быстрого возврата наверх
+- 📱 Оптимизацию для мобильных устройств
 
 ## 🦊 Галерея животных
 
@@ -94,10 +81,6 @@
 </div>
 
 ## 🚀 Быстрый старт
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Yorgankrait/Wildlife_Russia/main/docs/installation.gif" alt="Installation" width="600"/>
-</div>
 
 ### 1️⃣ Клонируйте репозиторий
 
@@ -167,24 +150,13 @@ wildlife_russia/
 
 ## 📱 Поддерживаемые устройства
 
-<div align="center">
-  <table>
-    <tr>
-      <td align="center">
-        <img src="https://raw.githubusercontent.com/Yorgankrait/Wildlife_Russia/main/docs/devices/desktop.png" width="200"/><br>
-        <sub><b>Десктоп</b></sub>
-      </td>
-      <td align="center">
-        <img src="https://raw.githubusercontent.com/Yorgankrait/Wildlife_Russia/main/docs/devices/tablet.png" width="150"/><br>
-        <sub><b>Планшет</b></sub>
-      </td>
-      <td align="center">
-        <img src="https://raw.githubusercontent.com/Yorgankrait/Wildlife_Russia/main/docs/devices/mobile.png" width="100"/><br>
-        <sub><b>Мобильный</b></sub>
-      </td>
-    </tr>
-  </table>
-</div>
+Проект полностью адаптивен и поддерживает любые устройства:
+- 💻 Десктопные компьютеры и ноутбуки
+- 📱 Планшеты любых размеров
+- 📱 Мобильные телефоны (Android, iOS)
+- 📺 Большие экраны
+
+Интерфейс автоматически подстраивается под размер экрана, обеспечивая комфортное использование на любом устройстве.
 
 ## 📄 Лицензия
 
