@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+.side-nav {
+    position: fixed;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.side-nav ul {
+    list-style: none;
+}
+
+.side-nav li {
+    margin: 10px 0;
+}
+
+.nav-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s ease;
+    display: block;
+    padding: 5px 10px;
+}
+
+.nav-link:hover {
+    color: #ffd700;
+}
+
+.parallax-container {
+    perspective: 1px;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.parallax-section {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform-style: preserve-3d;
+}
+
+.parallax-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    transform: translateZ(-1px) scale(2);
+    z-index: -1;
+}
+
+.content-wrapper {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 15px;
+    max-width: 800px;
+    width: 90%;
+    margin: 0 20px;
+    transform: translateZ(0);
+}
+
+.animal-info {
+    text-align: center;
+}
+
+.animal-info h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #ffd700;
+}
+
+.animal-info h3 {
+    font-size: 1.5em;
+    font-style: italic;
+    margin-bottom: 20px;
+    color: #cccccc;
+}
+
+.description {
+    font-size: 1.1em;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* Медиа-запросы для адаптивности */
+@media (max-width: 768px) {
+    .side-nav {
+        bottom: 0;
+        top: auto;
+        right: 0;
+        left: 0;
+        transform: none;
+        border-radius: 10px 10px 0 0;
+        padding: 10px;
+    }
+
+    .side-nav ul {
+        display: flex;
+        overflow-x: auto;
+        padding-bottom: 5px;
+    }
+
+    .side-nav li {
+        margin: 0 10px;
+        white-space: nowrap;
+    }
+
+    .content-wrapper {
+        padding: 20px;
+        margin: 0 10px;
+    }
+
+    .animal-info h2 {
+        font-size: 2em;
+    }
+
+    .animal-info h3 {
+        font-size: 1.2em;
+    }
+
+    .description {
+        font-size: 1em;
+    }
+}
+
+/* Стили для планшетов */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .content-wrapper {
+        max-width: 600px;
+    }
+} 

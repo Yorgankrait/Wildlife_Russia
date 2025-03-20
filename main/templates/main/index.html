@@ -1,0 +1,29 @@
+{% extends 'main/base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="parallax-container">
+    {% for animal in animals %}
+    <section id="{{ animal.id }}" class="parallax-section">
+        <div class="parallax-bg" style="background-image: url('{% static "images/"|add:animal.image %}');"></div>
+        <div class="content-wrapper">
+            <button class="toggle-button">
+                <span class="toggle-icon"></span>
+            </button>
+            <div class="animal-info">
+                <div class="animal-header">
+                    <div class="animal-thumbnail" style="background-image: url('{% static "images/"|add:animal.image %}');"></div>
+                    <div class="animal-titles">
+                        <h2>{{ animal.name }}</h2>
+                        <h3>{{ animal.latin_name }}</h3>
+                    </div>
+                </div>
+                <div class="description">
+                    {{ animal.description|linebreaks }}
+                </div>
+            </div>
+        </div>
+    </section>
+    {% endfor %}
+</div>
+{% endblock %} 
