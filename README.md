@@ -93,7 +93,7 @@ cd Wildlife_Russia
 
 ```bash
 # Linux/macOS
-python -m venv venv
+python3 -m venv venv
 source venv/bin/activate
 
 # Windows
@@ -176,4 +176,4 @@ wildlife_russia/
 
 <div align="center">
   <sub>Сделано с ❤️ для сохранения природы России</sub>
-</div> 
+</div>
